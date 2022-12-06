@@ -5,9 +5,11 @@ import sound.SoundManager;
 import javax.swing.*;
 
 public abstract class Screen extends JPanel {
+    protected ScreenRouter screenRouter;
     protected SoundManager soundManager;
 
-    public Screen(SoundManager soundManager) {
+    public Screen(ScreenRouter screenRouter, SoundManager soundManager) {
+        this.screenRouter = screenRouter;
         this.soundManager = soundManager;
     }
 
