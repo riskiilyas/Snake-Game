@@ -18,3 +18,20 @@ This project is a simple GUI game called Snake Game. This game has 10 levels tha
 <img src="https://user-images.githubusercontent.com/71499142/206075504-f00c2986-d5f6-4cb1-9cc1-08682db4db0b.png" width="400"/>
 <img src="https://user-images.githubusercontent.com/71499142/206075563-7fdcc839-b4fe-4ea9-8928-d49e2508cba3.png" width="400"/>
 </p>
+
+## To-do
+
+- [ ] Casting/Conversion
+- [x] Constructor
+- [ ] Overloading
+- [x] Encapsulation
+- [x] Inheritance
+- [x] Polymorphism
+- [x] ArrayList
+- [x] Exception Handling
+- [x] GUI
+- [x] Interface
+- [x] Abstract Class
+- [x] Generics
+- [x] Collection
+- [x] Input Output
