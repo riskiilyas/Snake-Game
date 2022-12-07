@@ -91,7 +91,7 @@ public class MenuScreen extends Screen {
                         "Use Keyboar Arrow Buttons to change direction.The objective of the game is to eat the apples by approaching it. Game is over when" +
                                 "\nplayer get out of the map, eat the snake's body, or crash into obstacle. You can\n" +
                                 "also boost by holding SPACE BAR.\n\nvisit:\n" +
-                                "www.riskiilyas.com\nhttps://github.com/riskiilyas/Snake-Game-Java",
+                                "www.riskiilyas.com\nhttps://github.com/riskiilyas/FP-OOP-Snake-Game",
                         "How To Play", JOptionPane.INFORMATION_MESSAGE);
             }
         }
