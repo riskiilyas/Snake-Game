@@ -4,6 +4,8 @@
 Name: Riski Ilyas<br>
 NRP : 5025211189
 
+Reference: https://www.youtube.com/watch?v=bI6e6qjJ8JQ&t=1532s
+
 ## Description
 This project is a simple GUI game called Snake Game. This game has 10 levels that needs to be completed and each level has different diffculties and obstacles. There is also Casual Mode to play the game with no obstacles. There is also a Highscore that records your top score in each Casual Game. Besides the gameplay, it also has Settings with multiple options such as Changing Player Name, Turn On/Off Music, Turn On/Off SFX, & Reset Game. All the settings data will be stored in an external file so that the game still remember the data even when the Game has Closed.
 
