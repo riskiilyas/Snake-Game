@@ -1,7 +1,7 @@
 # FP-OOP-Snake-Game
 ## Final Project for OOP
 
-Name: Riski Ilyas
+Name: Riski Ilyas<br>
 NRP : 5025211189
 
 ## Description
