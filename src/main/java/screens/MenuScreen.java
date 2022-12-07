@@ -1,6 +1,7 @@
 package screens;
 
-import components.MenuButton;
+import components.*;
+import components.Button;
 import sound.SoundManager;
 import state.ScreenState;
 import state.SoundState;

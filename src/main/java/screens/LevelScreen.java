@@ -1,6 +1,7 @@
 package screens;
 
-import components.BackButton;
+import components.*;
+import components.Button;
 import sound.SoundManager;
 import state.LevelState;
 import state.ScreenState;
