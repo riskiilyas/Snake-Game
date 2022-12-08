@@ -93,10 +93,10 @@ public class SettingsScreen extends Screen implements MouseListener {
             soundManager.playSound(SoundState.BUTTON_CLICKED);
         } else if (cpButton.checkClicked(x, y)) {
             soundManager.playSound(SoundState.BUTTON_CLICKED);
-            String playername = JOptionPane
+            String playerName = JOptionPane
                     .showInputDialog("Current name: " + dataStore.getPlayerNameObservable().getValue() + "\nChange Playername:");
-            if (playername != null && !playername.contains(":")) {
-                dataStore.setPlayerName(playername);
+            if (playerName != null && !playerName.contains(":")) {
+                dataStore.setPlayerName(playerName);
             }
         } else if (resetBtn.checkClicked(x, y)) {
             soundManager.playSound(SoundState.BUTTON_CLICKED);

@@ -99,12 +99,12 @@ public class LevelScreen extends Screen implements MouseListener {
             screenRouter.route(ScreenState.MENU);
         } else if (casualBtn.checkClicked(x, y)) {
             soundManager.playSound(SoundState.BUTTON_CLICKED);
-            screenRouter.routeToGame(LevelState.CASUAL);
+            screenRouter.route(LevelState.CASUAL);
         } else {
             for (int i = 0; i < 10; i++) {
                 if (levelbtns[i].checkClicked(x, y)) {
                     if (i < currentLevel) {
-                        screenRouter.routeToGame(LevelState.valueOf("L" + (i + 1)));
+                        screenRouter.route(LevelState.valueOf("L" + (i + 1)));
                         soundManager.playSound(SoundState.BUTTON_CLICKED);
                     }
                     break;

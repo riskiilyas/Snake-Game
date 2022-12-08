@@ -21,9 +21,9 @@ This project is a simple GUI game called Snake Game. This game has 10 levels tha
 
 ## To-do
 
-- [ ] Casting/Conversion
+- [x] Casting/Conversion
 - [x] Constructor
-- [ ] Overloading
+- [x] Overloading
 - [x] Encapsulation
 - [x] Inheritance
 - [x] Polymorphism

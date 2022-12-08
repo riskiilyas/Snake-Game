@@ -9,8 +9,8 @@ public class Pair<F, S> {
         this.second = second;
     }
 
-    public boolean compareWith(Pair<F, S> anotherPair) {
-        return this.first == anotherPair.first && this.second == anotherPair.second;
+    public boolean compareWith(Pair<F,S> anotherPair) {
+        return first == anotherPair.first && second ==  anotherPair.second;
     }
 
     public Pair<F, S> copy() {

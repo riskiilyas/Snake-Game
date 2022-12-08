@@ -30,13 +30,13 @@ public class DataStore {
         try {
             Scanner dataScanner = new Scanner(data);
             while (dataScanner.hasNextLine()) {
-                String[] keyvalue = dataScanner.nextLine().split(":");
-                switch (keyvalue[0]) {
-                    case IS_MUSIC_ON -> isMusicOn.setValue((Integer.parseInt(keyvalue[1]) == 1));
-                    case IS_SFX_ON -> isSfxOn.setValue((Integer.parseInt(keyvalue[1]) == 1));
-                    case PLAYER_NAME -> playerName.setValue(keyvalue[1]);
-                    case CURRENT_LEVEL -> currentLevel.setValue(Integer.valueOf(keyvalue[1]));
-                    case HIGHSCORE -> highscores.setValue(Integer.valueOf(keyvalue[1]));
+                String[] keyValue = dataScanner.nextLine().split(":");
+                switch (keyValue[0]) {
+                    case IS_MUSIC_ON -> isMusicOn.setValue((Integer.parseInt(keyValue[1]) == 1));
+                    case IS_SFX_ON -> isSfxOn.setValue((Integer.parseInt(keyValue[1]) == 1));
+                    case PLAYER_NAME -> playerName.setValue(keyValue[1]);
+                    case CURRENT_LEVEL -> currentLevel.setValue(Integer.valueOf(keyValue[1]));
+                    case HIGHSCORE -> highscores.setValue(Integer.valueOf(keyValue[1]));
                 }
             }
             dataScanner.close();

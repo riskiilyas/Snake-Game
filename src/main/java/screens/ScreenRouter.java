@@ -36,7 +36,7 @@ public class ScreenRouter implements Observable.OnValueChangedListener<ScreenSta
         screenState.setValue(state);
     }
 
-    public void routeToGame(LevelState levelState) {
+    public void route(LevelState levelState) {
         this.levelState = levelState;
         screenState.setValue(ScreenState.GAME);
     }

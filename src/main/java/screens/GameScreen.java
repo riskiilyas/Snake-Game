@@ -80,14 +80,14 @@ public class GameScreen extends Screen implements ActionListener {
         g.drawImage(new ImageIcon("assets/apple.png").getImage(), appleX * UNIT_SIZE, appleY * UNIT_SIZE, null);
 
         int i = 0;
-        int tailx = 0, taily = 0;
+        int tailX = 0, tailY = 0;
         for (var xy : snake) {
             if (i == 0) {
-                tailx = xy.first.first;
-                taily = xy.first.second;
+                tailX = xy.first.first;
+                tailY = xy.first.second;
             } else if (i == 1) {
                 g.drawImage(new ImageIcon("assets/tail_" + xy.second.name().toLowerCase() + ".png").getImage(),
-                        tailx * UNIT_SIZE, taily * UNIT_SIZE, null
+                        tailX * UNIT_SIZE, tailY * UNIT_SIZE, null
                 );
                 g.drawImage(new ImageIcon("assets/body" + (i % 2) + ".png").getImage(),
                         xy.first.first * UNIT_SIZE, xy.first.second * UNIT_SIZE, null);
