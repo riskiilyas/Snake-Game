@@ -21,17 +21,17 @@ This project is a simple GUI game called Snake Game. This game has 10 levels tha
 
 ## To-do
 
-- [x] Casting/Conversion
-- [x] Constructor
-- [x] Overloading
-- [x] Encapsulation
-- [x] Inheritance
-- [x] Polymorphism
-- [x] ArrayList
-- [x] Exception Handling
-- [x] GUI
-- [x] Interface
-- [x] Abstract Class
-- [x] Generics
-- [x] Collection
-- [x] Input Output
+- [x] Casting/Conversion (Casting GameMusic)
+- [x] Constructor (Constructors for each screen)
+- [x] Overloading (Overloading at screenRouter to route to gamescreen)
+- [x] Encapsulation (Observable encapsulation on DataStore)
+- [x] Inheritance (INheritance on Buttons)
+- [x] Polymorphism (Level polymorphism on GameScreen)
+- [x] ArrayList (Arraylist for Linsteners on Observable)
+- [x] Exception Handling (Exception Handling on DataStore)
+- [x] GUI (Java Swing)
+- [x] Interface (Interface for callback on Observable)
+- [x] Abstract Class (Abstract class for Screen and Level)
+- [x] Generics (Pair Class)
+- [x] Collection (Hashmap on SounManager)
+- [x] Input Output (I/O for the dataStore)
