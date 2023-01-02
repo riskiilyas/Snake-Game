@@ -1,4 +1,4 @@
-# FP-OOP-Snake-Game
+# Snake-Game
 ## Final Project for OOP
 
 Name: Riski Ilyas<br>
@@ -22,40 +22,40 @@ This project is a simple GUI game called Snake Game. This game has 10 levels tha
 ## To-do
 
 - [x] Casting/Conversion (Casting GameMusic)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/sound/SoundManager.java#L33
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/sound/SoundManager.java#L33
 - [x] Constructor (Constructors for each screen)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/GameScreen.java#L42
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/LevelScreen.java#L27
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/MenuScreen.java#L28
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/SettingsScreen.java#L26
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/GameScreen.java#L42
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/LevelScreen.java#L27
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/MenuScreen.java#L28
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/SettingsScreen.java#L26
 - [x] Overloading (Overloading at screenRouter to route to gamescreen)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/ScreenRouter.java#L35-L42
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/ScreenRouter.java#L35-L42
 - [x] Encapsulation (Observable encapsulation on DataStore)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L18-L22
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L64-L66
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L73-L75
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L82-L84
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L91-L93
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L18-L22
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L64-L66
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L73-L75
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L82-L84
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L91-L93
 - [x] Inheritance (Inheritance on Buttons)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/components/Button.java#L5
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/components/BackButton.java#L3
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/components/MenuButton.java#L5
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/components/Button.java#L5
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/components/BackButton.java#L3
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/components/MenuButton.java#L5
 - [x] Polymorphism (Level polymorphism on GameScreen)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/GameScreen.java#L38
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/GameScreen.java#L226-L240
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/GameScreen.java#L38
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/GameScreen.java#L226-L240
 - [x] ArrayList (Arraylist for Linsteners on Observable)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/Observable.java#L8
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/Observable.java#L8
 - [x] Exception Handling (Exception Handling on DataStore)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L29-L44
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L29-L44
 - [x] GUI (Java Swing)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/GameFrame.java#L6-L22
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/GameFrame.java#L6-L22
 - [x] Interface (Interface for callback on Observable)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/Observable.java#L30-L32
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/Observable.java#L30-L32
 - [x] Abstract Class (Abstract class for Screen and Level)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/Screen.java#L7-L19
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/screens/Screen.java#L7-L19
 - [x] Generics (Pair Class)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/Pair.java#L3-L20
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/Pair.java#L3-L20
 - [x] Collection (Hashmap on SounManager)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/sound/SoundManager.java#L11
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/sound/SoundManager.java#L11
 - [x] Input Output (I/O for the dataStore)
-  https://github.com/riskiilyas/FP-OOP-Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L29-L62
+  https://github.com/riskiilyas/Snake-Game/blob/df0c463ebc5cadc9095b4506e3c44c1aa49527d0/src/main/java/utils/DataStore.java#L29-L62
